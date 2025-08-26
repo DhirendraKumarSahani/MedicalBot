@@ -1,4 +1,4 @@
---extra-index-url https://download.pytorch.org/whl/cpu
+--extra-index-url https://download.pytorch.org/whl/cpu  # (optional if torch removed)
 
 streamlit==1.36.0
 python-dotenv==1.0.1
@@ -17,9 +17,10 @@ faiss-cpu==1.8.0
 pypdf==4.2.0
 
 # Torch CPU wheels
-torch==2.2.2+cpu
-torchvision==0.17.2+cpu
-torchaudio==2.2.2+cpu
+torch==2.8.0+cpu
+torchvision==0.23.0+cpu
+torchaudio==2.8.0+cpu
+
 
 # Misc
 numpy==1.26.4
